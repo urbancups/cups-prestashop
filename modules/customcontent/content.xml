@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<items>
+  <item>
+    <inst>item_inst_0</inst>
+    <hook>top</hook>
+    <html>
+        <lang_3><![CDATA[<a href="http://ec2-54-220-187-129.eu-west-1.compute.amazonaws.com/index.php?id_product=10&controller=product">
+<div class="banner1">
+	<span class="text10">חזר למלאי</span>
+	<span class="text11">כרש חיתוך  </span>
+	<span class="text12">בכול הצבעים וטעמים</span>
+	<span class="link1">הזמן עכשיו</span>
+</div>
+</a>
+]]></lang_3>
+    </html>
+
+
+ </item>
+  <item>
+    <inst>item_inst_1</inst>
+    <hook>top</hook>
+    <html>
+        <lang_3><![CDATA[<a href="?id_product=11&controller=product&id_lang=3">
+<div class="banner2">
+	<span class="text13">בטטה מובחרת כבדה</span>
+	<span class="text14">עד 30% הנחה</span>
+	<span class="link1">תטעם</span>
+</div>
+</a>]]></lang_3>
+    </html>
+
+
+ </item>
+</items>

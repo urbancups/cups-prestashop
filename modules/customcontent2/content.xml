@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<items>
+  <item>
+    <inst>item_inst_0</inst>
+    <hook>top</hook>
+    <html>
+        <lang_3><![CDATA[<a href="?id_product=1&controller=product&id_lang=3">
+<div class="banner3">
+        <strong class="ban1"></strong>
+	<span class="text20">תקופת התנסות ל-3 ימים</span>
+	<span class="text15">תזמין עכשיו</span>
+	<span class="text16"> 15% תוספת במחיר</span>
+<div class="clear"></div>
+	<span class="link2">רק מוצרים אשר פג תוקפם</span>
+</div>
+</a>]]></lang_3>
+    </html>
+
+
+ </item>
+  <item>
+    <inst>item_inst_1</inst>
+    <hook>top</hook>
+    <html>
+        <lang_3><![CDATA[<a href="?id_product=2&controller=product&id_lang=3">
+<div class="banner4">
+        <strong class="ban2"></strong>
+	<span class="text17">איסוף עצמי מאילת</span>
+	<span class="text18">על הזמנה מעל</span>
+	<span class="text19">5000 ש"ח</span>
+	<span class="link3">לחץ כאן</span>
+<div class="clear"></div>
+</div>
+</a>]]></lang_3>
+    </html>
+
+
+ </item>
+</items>

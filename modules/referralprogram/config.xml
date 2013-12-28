@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>referralprogram</name>
+            <displayName><![CDATA[תוכנית הפניית לקוחות]]></displayName>
+            <version><![CDATA[1.5.1]]></version>
+            <description><![CDATA[שלב מערכת הפניית לקוחות בחנות שלך]]></description>
+            <author><![CDATA[PrestaShop]]></author>
+            <tab><![CDATA[advertising_marketing]]></tab>
+	<confirmUninstall>כל נותני חסות והחברים יימחקו. האם אתה בטוח שאתה רוצה להסיר את המודול?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

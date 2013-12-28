@@ -1,0 +1,21 @@
+<a href="?id_product=10&controller=product&id_lang=3">
+<div class="banner1">
+	<span class="text10">up to </span>
+	<span class="text11">50%  </span>
+	<span class="text12">off clothing</span>
+	<span class="link1">click here</span>
+</div>
+</a>
+
+
+
+
+
+
+<a href="?id_product=11&controller=product&id_lang=3">
+<div class="banner2">
+	<span class="text13">men’s shoes</span>
+	<span class="text14">sale-30%</span>
+	<span class="link1">click here</span>
+</div>
+</a>

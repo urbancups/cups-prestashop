@@ -1,0 +1,233 @@
+/************************************* desktop menu************************************/
+#menu-trigger {
+	display: none;
+}
+#menu-wrap {	
+	position: relative;
+	z-index: 2;
+	margin-bottom: 3px;
+	border-radius: 3px;
+	height: 68px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+#menu-custom, #menu-custom ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu-custom:before, #menu-custom:after {
+	content: "";
+	display: table;
+}
+#menu-custom:after {
+	clear: both;
+}
+#menu-custom {
+	zoom: 1;
+}
+.desktop #menu-custom li {
+	float: right;                          /**CHANGED FROM LEFT**/
+	display: block;
+	position: relative;
+}
+
+.desktop #menu-custom li:first-child {
+	border-radius: 3px 0 0 3px;
+}
+
+.desktop #menu-custom a {
+	color: #fff;
+	font-size: 11px;
+	text-transform: uppercase;
+	display: block;
+	padding: 26px 17px 27px;
+	font-weight: normal;
+	line-height: 15px;
+	text-decoration: none;
+}
+.desktop #menu-custom li:hover, .desktop #menu-custom > li.sfHoverForce {
+	background: #0088ba;
+}
+.desktop #menu-custom li li:hover, .desktop #menu-custom > li > li.sfHoverForce {
+	background:none;
+}
+
+.desktop #menu-custom li li a:hover {
+	color: #0088ba;
+}
+.desktop #menu-custom li li li a:hover {
+	color: #000;
+}
+
+#menu-custom ul  {
+	opacity: 0;
+	margin: 0;
+	visibility: hidden;
+	position: absolute;
+	top:68px;
+	width: 134px;
+	padding: 27px 0 20px;
+	left: 0px;	
+	z-index: 1;
+	transition: all 0.2s ease-in-out 0.3s;
+	-webkit-transition: all 0.2s ease-in-out 0.3s;
+	-moz-transition: all 0.2s ease-in-out 0.3s;
+	-ms-transition: all 0.2s ease-in-out 0.3s;
+	-o-transition: all 0.2s ease-in-out 0.3s;
+}
+#menu-custom li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin: 0;
+	transition-delay: 0s;
+	-webkit-transition-delay:0s;
+	-moz-transition-delay: 0s;
+	-ms-transition-delay: 0s;
+	-o-transition-delay: 0s;
+}
+.desktop #menu-custom ul ul {
+	background: #0088ba;
+	left: 134px;
+    top: -25px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.desktop #menu-custom ul li {
+	float: none;
+	display: block;
+	background: none;
+	border-radius: 0 !important;
+	padding: 0 5px 0 18px;
+	margin: 0 0 15px 0;
+	background: none;
+	line-height: 1.2em;
+}
+.desktop #menu-custom ul a {
+	display: inline-block;
+	white-space: nowrap;
+	font-weight: normal;
+	padding: 0;
+	float: none;
+	color: #fff;	
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.desktop #menu-custom ul ul a:hover {
+	color: #0088ba;
+}
+.desktop #menu-custom ul ul li:hover {
+	background: none;
+}
+#menu-trigger {
+	display: none;
+}
+.desctop #menu-custom {
+	display: block;
+}
+
+.nivo-caption p,
+.nivo-caption h3 {
+	display: none;
+}
+
+
+/**************************************************mobile menu**************************************************************/
+@media only screen and (max-width:1199px) {
+	#menu-wrap.desktop { display:none;}
+	#menu-wrap {
+		position: relative;
+	}
+	#menu-wrap * {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#menu-trigger {
+		height: 48px;
+		line-height: 48px;
+		cursor: pointer;
+		padding: 0 0 0 20px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 23px;
+	}
+	#menu-trigger .menu-icon {
+		font-size:30px;
+		line-height:30px;
+		width:auto;
+		display: block;
+		position: absolute;
+		top: 8px;
+		right: 14px;
+	}
+	.mobile #menu-custom {
+		margin: 0;
+		padding: 0px;
+		position: absolute;
+		top: 48px;
+		width: 100%;
+		z-index: 1;
+		background-color: #444;
+		display: none;
+	}
+	#menu-custom ul {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0;
+    opacity: 1;
+    display: none;
+    padding: 0;
+    width: auto;
+    position: static;
+    transition: none 0s ease 0s;
+    -webkit-transition: none 0s ease 0s;
+    	-o-transition:none 0s ease 0s;
+    visibility: visible;
+}
+	#menu-custom li {
+		position: static;
+		display: block;
+		position: relative;
+	}
+	#menu-custom a {
+		display: block;
+		float: none;
+		padding: 10px 20px;
+		color: #fff;
+		font-size: 18px;
+	}
+	#menu-custom a:hover {
+		background:#888;
+	}
+	#menu-custom ul a {
+		padding-left:40px;
+		width: auto;
+	}
+	#menu-custom ul ul a {
+		padding-left:60px;
+		width: auto;
+	}
+	.open-mobile-2 {
+		font-size:25px;
+		line-height:30px;
+		display: block;
+		position: absolute;
+		right: 13px;
+		top: 4px;
+		height:30px;
+		width:30px;
+		text-align:center;
+		vertical-align:middle;
+		color:#fff;
+	}
+	.open-mobile-2:hover {
+		cursor: pointer;
+	}
+	.open-mobile-2:hover + a {
+		background:#888888;	
+	}
+}

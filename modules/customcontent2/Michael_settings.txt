@@ -1,0 +1,23 @@
+<a href="?id_product=1&controller=product&id_lang=3">
+<div class="banner3">
+        <strong class="ban1"></strong>
+	<span class="text20">5 days only </span>
+	<span class="text15">take an additional</span>
+	<span class="text16">15% off</span>
+<div class="clear"></div>
+	<span class="link2">Items currently marked</span>
+</div>
+</a>
+
+
+
+<a href="?id_product=2&controller=product&id_lang=3">
+<div class="banner4">
+        <strong class="ban2"></strong>
+	<span class="text17">free shipping</span>
+	<span class="text18">on orders over</span>
+	<span class="text19">$500</span>
+	<span class="link3">click here</span>
+<div class="clear"></div>
+</div>
+</a>

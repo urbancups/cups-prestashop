@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>vatnumber</name>
+            <displayName><![CDATA[מספר תיק מע&amp;quot;מ ארופאי]]></displayName>
+            <version><![CDATA[1.2]]></version>
+            <description><![CDATA[אפשר הקלדה של מספר המע&amp;quot;מ בעת יצירת הכתובת (עליך למלא את שדה החברה כדי לאפשר את הקלדת מספר המע&amp;quot;מ)]]></description>
+            <author><![CDATA[PrestaShop]]></author>
+            <tab><![CDATA[billing_invoicing]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+        </module>

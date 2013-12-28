@@ -1,0 +1,2 @@
+*ERROR* 	2013/10/27 - 22:38:46: File "he.php" doesn't exists and cannot be created in /var/www/themes/theme762/lang/ at line 1508 in file controllers/admin/AdminTranslationsController.php
+*ERROR* 	2013/10/27 - 22:41:38: File "he.php" doesn't exists and cannot be created in /var/www/themes/theme762/lang/ at line 1508 in file controllers/admin/AdminTranslationsController.php
